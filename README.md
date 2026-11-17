@@ -82,3 +82,6 @@ More folders (`scripts/`, `configs/`, `experiments/`) are added when first neede
 ## Results
 
 No results yet. Metrics will be added here only once measured on the held-out test set.
+
+- **Plate side (Model 2 + Model 3):** measured on held-out data, see
+  [docs/plate_side.md § Results](docs/plate_side.md#7-results-measured-2026-11-17).

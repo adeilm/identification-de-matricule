@@ -15,7 +15,7 @@ dependencies = ["numpy>=1.26"]
 # Student A
 vehicle = ["opencv-python>=4.9", "ultralytics>=8.3"]
 ui = ["opencv-python>=4.9", "streamlit>=1.40"]
-# Student B: add the OCR library here once it is chosen.
+# Student B: Model 2 = YOLO (ultralytics), Model 3 = own CRNN in PyTorch (installed with ultralytics).
 plate = ["opencv-python>=4.9", "ultralytics>=8.3"]
 dev = ["pytest>=8"]
 
