@@ -1,0 +1,43 @@
+# --- Large files: never in Git (see data/README.md and weights/README.md) ---
+data/*
+!data/README.md
+weights/*
+!weights/README.md
+runs/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.safetensors
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar
+*.tar.gz
+
+# --- Secrets ---
+.env
+kaggle.json
+*.pem
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# --- Notebooks / experiment tools ---
+.ipynb_checkpoints/
+wandb/
+mlruns/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
